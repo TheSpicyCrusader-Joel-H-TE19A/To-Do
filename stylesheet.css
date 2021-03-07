@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Crimson Text", serif;
+}
+
+header {
+  padding: 30px;
+  background-color: #16b8f3;
+  text-align: center;
+}
+.InBetween {
+  padding: 30px;
+  background-color: #18ffcd;
+  text-align: center;
+}
+
+.list {
+  text-align: left;
+  margin: auto;
+}
+main {
+  padding: 10%;
+  background-color: #a6e6ff;
+}
+
+footer {
+  padding: 50px;
+  background-color: #16b8f3;
+  text-align: center;
+}
+
+.Interactive:hover {
+  transform: scale(1.075);
+  transition: 0.5s;
+}
